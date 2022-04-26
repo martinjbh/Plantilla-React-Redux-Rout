@@ -1,3 +1,27 @@
 body{
-  text-align: center;
+  
+  font-family: "Roboto","Arial",sans-serif;
+  background: rgb(49, 47, 47);
+  color: antiquewhite;
+  overflow-x: hidden;
+
 }
+.app{
+  width: 100vw;
+  height: 3000px;
+  overflow: hidden;
+}
+.dark-mode{
+  background: rgb(49, 47, 47);
+ color: antiquewhite;
+}
+.light-mode{
+  background: none;
+  color: rgb(50, 50, 50);
+}
+
+/* @media (min-width:2700px) {
+  .app{
+    display: none;
+  }
+} */

@@ -1,13 +1,12 @@
 
 const initialState = {
-    "movies": [],
     data:[]
 }
 export const reducer = (state = initialState, action) => {
     switch (action.type) {
-        case "AGREGAR_PELICULA": {
+        case "AGREGAR_DARK": {
             return ({
-                ...state, movies: [...state.movies, action.movieNew]
+                ...state, data: [action.estilo]
             })
         }
         case "MODIFICAR_PRECIOS": {

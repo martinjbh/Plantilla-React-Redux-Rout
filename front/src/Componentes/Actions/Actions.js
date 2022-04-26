@@ -1,7 +1,7 @@
 
-export const AgregarMovie = (movieNew) => {
+export const agregarDark= (estilo) => {
     return (
-        { type: "AGREGAR_PELICULA", movieNew: movieNew }
+        { type: "AGREGAR_DARK", estilo: estilo }
     )
 }
 export const ModificadorDePrecios = (id, movie) => {
