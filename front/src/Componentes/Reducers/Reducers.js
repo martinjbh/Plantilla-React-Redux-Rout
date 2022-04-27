@@ -1,12 +1,14 @@
 
 const initialState = {
-    data:[]
+    data:["white"],
+    tag:["black"]
+   
 }
 export const reducer = (state = initialState, action) => {
     switch (action.type) {
         case "AGREGAR_DARK": {
             return ({
-                ...state, data: [action.estilo]
+                ...state, data: [action.estilo.data],tag:[action.estilo.tagi]
             })
         }
         case "MODIFICAR_PRECIOS": {
