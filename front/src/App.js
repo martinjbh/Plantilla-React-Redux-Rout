@@ -8,12 +8,9 @@ import Home from './Componentes/Home/Home';
 function App() {
   return (
     <Router>
- 
         <Switch>
         <Route path="/" exact component={Home}/> 
-        
         </Switch>
-
     </Router>
   );
 }
