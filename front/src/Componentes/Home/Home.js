@@ -1,4 +1,4 @@
-import './Home.scss'
+import './Home.css'
 import { useSelector } from 'react-redux'
 
 const Home = () => {
